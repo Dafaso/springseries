@@ -113,7 +113,7 @@ header {
   background: black;
   list-style: none;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   display: none;
 }
 
@@ -275,49 +275,96 @@ header {
 }
 
 .panel_paragraph {
-  padding-top: 17px;
+  padding-top: 1px;
   margin: 0 15px;
 }
 
 .headline {
-  font-size: 3rem;
+  margin-top: 40px;
+  font-size: 2rem;
   font-weight: 800;
   text-shadow: 2px 2px 4px black;
 }
 
 .dots {
   margin-top: -75px;
-  font-size: 5rem;
+  margin-bottom: 40px;
+  font-size: 4rem;
   text-shadow: 2px 2px 4px black;
 }
 
 .under_headline {
-  font-size: 2rem;
-  margin: -44px 0 70px;
+  font-size: 1.3rem;
+  margin: -44px 0 60px;
   text-shadow: 1px 2px 3px black;
+}
 
+.age18 {
+  font-size: 1rem;
+}
+
+.about_headline {
+  margin: 100px 0 60px;
 }
 
 .ride_headline {
   font-size: 2rem;
+  text-shadow: 2px 2px 4px black;
+  margin-top: 125px;
 }
 
 .ride_under_headline {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-top: -20px;
+  margin-bottom: 0;
+  text-shadow: 1px 2px 3px black;
 }
 
-.panel_paragraph p span {
+.ride_detail_headline {
+  font-size: 1.7rem;
+  margin-top: 10px;
+  text-shadow: 1px 2px 3px black;
+}
+
+.details {
+  font-size: .8rem;
+}
+
+.panel_paragraph p span,
+.rideone_detail_map,
+.ridetwo_detail_map,
+.ridethree_detail_map,
+.ridefour_detail_map,
+.ridefive_detail_map,
+.ridesix_detail_map {
   display: inline-block;
-  margin: 0 50px 0;
-  padding: 10px 10px;
+  margin: 0 20px 0;
+  padding: 6px 6px;
   border: 2px solid white;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  transition: 500ms;
+  transition-property: all;
 }
 
 .ride_buttons {
-  margin-top: 84px;
+  margin-top: 77px;
+}
+
+.register_button {
+  display: inline-block;
+}
+
+.ride_buttons :hover,
+.detail_ride_buttons :hover,
+.register_button :hover {
+  border: 2px solid black;
+  background: rgba(255,255,255,.6);
+  color: black;
+  text-shadow: 1px 2px 4px grey;
+  box-shadow: 1px 2px 4px black;
+  transition: 500ms;
+  transition-property: all;
 }
 
 .register_button,
@@ -350,4 +397,329 @@ Clearfix
   content: " ";
   display: table;
   clear: both;
+}
+
+/********************************************************
+RESPONSIVE
+*********************************************************/
+
+@media (min-width: 359px){
+
+  .headline {
+    font-size: 2.2rem;
+    margin-top: 30px;
+  }
+
+  .dots {
+    margin: -55px 0 50px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .under_headline {
+    font-size: 1.2rem;
+    margin: -37px 0 60px;
+  }
+
+  .panel_paragraph p span,
+  .rideone_detail_map {
+    padding: 4px 4px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+
+  .register_button {
+    margin-top: -5px;
+  }
+
+  .age18 {
+    font-size: .6rem;
+  }
+
+  .first_about_under {
+    margin-top: -4px;
+  }
+
+  .ride_headline {
+    font-size: 1.9rem;
+  }
+
+  .ride_under_headline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: -13px;
+    margin-bottom: -10px;
+  }
+
+  .details {
+    font-size: .9rem;
+  }
+
+  .detail_ride_buttons {
+    margin-top: 0;
+    font-size: .7rem;
+  }
+
+  .panel_paragraph p span,
+  .rideone_detail_map,
+  .ridetwo_detail_map,
+  .ridethree_detail_map,
+  .ridefour_detail_map,
+  .ridefive_detail_map,
+  .ridesix_detail_map {
+    margin: 0 34px 0;
+    padding: 7px 7px;
+    border: 2px solid white;
+    font-size: 1.1rem;
+  }
+
+}
+
+@media (min-width: 410px){
+
+  #navigation {
+    font-size: 1.4rem;
+  }
+
+  #navi li {
+    margin-bottom: 37px;
+  }
+
+  .headline {
+    font-size: 2.4rem;
+    margin-top: 30px;
+  }
+
+  .dots {
+    font-size: 3.6rem;
+  }
+
+  .under_headline {
+    font-size: 1.4rem;
+    margin: -32px 0 60px;
+  }
+
+  .register_button {
+    margin-top: 105px;
+
+  }
+
+  .age18 {
+    font-size: 1rem;
+  }
+
+  .first_about_under {
+    margin-top: 56px;
+  }
+
+  .week {
+    font-size: 2rem;
+    margin-top: 211px;
+  }
+
+  .location {
+    font-size: 1.8rem;
+    margin-top: 42px;
+    margin-bottom: 265px;
+  }
+
+  .ride_buttons {
+    margin-top: -50px;
+  }
+
+  .details {
+    font-size: 1rem;
+  }
+
+  .detail_ride_buttons {
+    margin-top: 0;
+    font-size: .7rem;
+  }
+
+  .panel_paragraph p span,
+  .rideone_detail_map,
+  .ridetwo_detail_map,
+  .ridethree_detail_map,
+  .ridefour_detail_map,
+  .ridefive_detail_map,
+  .ridesix_detail_map {
+    margin: 0px 34px 0;
+    padding: 7px 7px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+  }
+
+
+}
+
+@media (min-width: 765px){
+
+  #navigation {
+    font-size: 1.5rem;
+  }
+
+  .headline {
+    font-size: 2.6rem;
+    margin-top: 164px;
+  }
+
+  .about_headline {
+    margin-top: 240px;
+  }
+
+  .dots {
+    font-size: 4rem;
+  }
+
+  .under_headline {
+    font-size: 2rem;
+    margin: -24px 0 60px;
+  }
+
+  .register_button {
+    margin-top: 45px;
+
+  }
+
+  .age18 {
+    font-size: 1.1rem;
+  }
+
+  .first_about_under {
+    margin-top: 56px;
+  }
+
+  .week {
+    font-size: 2.4rem;
+    margin-top: 322px;
+  }
+
+  .location {
+    font-size: 2.2rem;
+    margin-top: 62px;
+    margin-bottom: 265px;
+  }
+
+  .ride_buttons {
+    margin-top: -40px;
+  }
+
+  .ride_detail_headline {
+    margin-top: 43px;
+    font-size: 2rem;
+  }
+
+  .location_detail {
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+
+  .details {
+    font-size: 1.4rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .detail_ride_buttons {
+    margin-top: 36px ;
+    font-size: .7rem;
+  }
+
+  .panel_paragraph p span,
+  .rideone_detail_map,
+  .ridetwo_detail_map,
+  .ridethree_detail_map,
+  .ridefour_detail_map,
+  .ridefive_detail_map,
+  .ridesix_detail_map {
+    margin: 0px 34px 0;
+    padding: 9px 9px;
+    border: 2px solid white;
+    font-size: 1.4rem;
+  }
+
+  .questions {
+    margin-top: 300px;
+  }
+
+
+}
+
+@media (min-width: 1020px){
+
+  #navigation {
+    font-size: 1.5rem;
+  }
+
+  .headline {
+    font-size: 2.6rem;
+    margin-top: 44px;
+  }
+
+  .about_headline {
+    margin-top: 90px;
+  }
+
+  .dots {
+    font-size: 4rem;
+  }
+
+  .under_headline {
+    font-size: 2rem;
+    margin: -14px 0 60px;
+  }
+
+  .register_button {
+    margin-top: 95px;
+
+  }
+
+  .age18 {
+    font-size: 1.1rem;
+  }
+
+  .first_about_under {
+    margin-top: 76px;
+  }
+
+  .week {
+    font-size: 2.6rem;
+    margin-top: 210px;
+  }
+
+  .location {
+    font-size: 2.6rem;
+    margin-top: 62px;
+    margin-bottom: 265px;
+  }
+
+  .ride_buttons {
+    margin-top: -55px;
+  }
+
+  .ride_detail_headline {
+    margin-top: 43px;
+    font-size: 2.1rem;
+  }
+
+  .location_detail {
+    font-size: 2.1rem;
+    margin: 50px 0;
+  }
+
+  .details {
+    font-size: 1.3rem;
+    width: 91%;
+    margin: 0 auto 8px;
+  }
+
+  .detail_ride_buttons {
+    font-size: .8rem;
+  }
+
+  .questions {
+    margin-top: 300px;
+  }
+
+
 }

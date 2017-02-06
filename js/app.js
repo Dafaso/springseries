@@ -80,6 +80,7 @@ $(".backsix").click(function(){
 });
 
 
+
 // $("").click(function(){
 //     //scroll DOWN
 //         var WH = $(window).height();
