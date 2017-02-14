@@ -76,16 +76,16 @@ header {
 }
 
 #logo {
-  height: 50px;
-  width: 200px;
-  margin: 15px 0 0 10px;
+  height: 65px;
+  width: 280px;
+  margin: 12px 0 0 26px;
 }
 
 .navDrop { /*3 lines together*/
     height: 50px;
     width: 35px;
-    margin-top: 13px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-right: 17px;
     float: right;
     display: block;
     cursor: pointer;
@@ -119,8 +119,8 @@ header {
 
 #x {
   position: fixed;
-  top: 4px;
-  right: 25px;
+  top: 8px;
+  right: 29px;
   cursor: pointer;
 
 }
@@ -140,7 +140,7 @@ header {
 }
 
 #welcome {
-  background-image: linear-gradient(90deg, rgba(19,179,147,.3) 0%,rgba(232,78,78,.3)),url("../img/150602_4048_barnett.jpg");
+  background-image: linear-gradient(90deg, rgba(0,0,0,.3) 0%,rgba(0,0,0,.2)),url("../img/150602_4048_barnett.jpg");
   background-size: cover;
   background-position: 70% 20%;
   margin-top: 90px;
@@ -153,7 +153,12 @@ header {
 }
 
 #rideone {
-  background-image: linear-gradient(170deg, rgba(79,72,206,.3) 55%,rgba(158,84,239,.3)),url("../img/140622_0250_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(170deg, rgba(79,72,206,.3) 55%,rgba(158,84,239,.3)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.1) 55%,rgba(0,0,0,.2)),
+      url("../img/140622_0250_barnett.jpg");
   background-size: cover;
   background-position: 20% 10%;
   position: relative;
@@ -172,7 +177,14 @@ header {
 }
 
 #ridetwo {
-  background-image: linear-gradient(170deg, rgba(239,83,83,.2) 55%,rgba(247,93,9,.3)),url("../img/150602_4264_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(170deg, rgba(239,83,83,.2) 55%,rgba(247,93,9,.3)),*/
+      
+      
+      linear-gradient(170deg, rgba(0,0,0,.2) 55%,rgba(0,0,0,.1)),      
+      
+      url("../img/150602_4264_barnett.jpg");
   background-size: cover;
   background-position: 48% 30%;
   position: relative;
@@ -191,7 +203,12 @@ header {
 }
 
 #ridethree {
-  background-image: linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),url("../img/150602_4327_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.2) 55%,rgba(0,0,0,.2)),
+      url("../img/150602_4327_barnett.jpg");
   background-size: cover;
   background-position: 55% 25%;
   position: relative;
@@ -199,7 +216,7 @@ header {
 }
 
 #ridethree_detail {
-  background-image: linear-gradient(170deg, rgba(206,26,137,.8) 55%,rgba(206,26,137,.8)),url("../img/150602_4327_barnett.jpg");
+  background-image: linear-gradient(170deg, rgba(50,153,52,.8) 55%,rgba(50,153,52,.8)),url("../img/150602_4327_barnett.jpg");
   background-size: cover;
   width: 100%;
   background-position: 55% 25%;
@@ -210,7 +227,12 @@ header {
 }
 
 #ridefour {
-  background-image: linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),url("../img/150602_4059_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.2) 55%,rgba(0,0,0,.2)),
+      url("../img/150602_4059_barnett.jpg");
   background-size: cover;
   background-position: 30% 0%;
   position: relative;
@@ -218,7 +240,7 @@ header {
 }
 
 #ridefour_detail {
-  background-image: linear-gradient(170deg, rgba(232,112,27,.8) 55%,rgba(232,112,27,.8)),url("../img/150602_4059_barnett.jpg");
+  background-image: linear-gradient(170deg, rgba(79,72,206,.8) 55%,rgba(79,72,206,.8)),url("../img/150602_4059_barnett.jpg");
   background-size: cover;
   width: 100%;
   background-position: 30% 0%;
@@ -229,7 +251,12 @@ header {
 }
 
 #ridefive {
-  background-image: linear-gradient(150deg, rgba(163,73,237,.3) 25%,rgba(65,234,206,.4)),url("../img/140622_0622_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(150deg, rgba(163,73,237,.3) 25%,rgba(65,234,206,.4)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.1) 55%,rgba(0,0,0,.2)),
+      url("../img/140622_0622_barnett.jpg");
   background-size: cover;
   background-position: 30% 10%;
   position: relative;
@@ -237,7 +264,7 @@ header {
 }
 
 #ridefive_detail {
-  background-image: linear-gradient(170deg, rgba(65,234,206,.8) 55%,rgba(65,234,206,.8)),url("../img/140622_0622_barnett.jpg");
+  background-image: linear-gradient(170deg, rgba(247,93,9,.8) 55%,rgba(247,93,9,.8)),url("../img/140622_0622_barnett.jpg");
   background-size: cover;
   width: 100%;
   background-position: 30% 10%;
@@ -248,7 +275,12 @@ header {
 }
 
 #ridesix {
-  background-image: linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),url("../img/150602_4018_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(150deg, rgba(206,26,137,.3) 25%,rgba(232,112,27,.3)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.2) 55%,rgba(0,0,0,.2)),
+      url("../img/150602_4018_barnett.jpg");
   background-size: cover;
   background-position: 30% 10%;
   position: relative;
@@ -256,7 +288,7 @@ header {
 }
 
 #ridesix_detail {
-  background-image: linear-gradient(170deg, rgba(206,26,137,.8) 55%,rgba(206,26,137,.8)),url("../img/150602_4018_barnett.jpg");
+  background-image: linear-gradient(170deg, rgba(50,153,52,.8) 55%,rgba(50,153,52,.8)),url("../img/150602_4018_barnett.jpg");
   background-size: cover;
   width: 100%;
   background-position: 30% 10%;
@@ -267,7 +299,12 @@ header {
 }
 
 #newsletter {
-  background-image: linear-gradient(150deg, rgba(107,7,206,.3) 26%,rgba(61,61,244,.5),rgba(232,78,78,.5)) ,url("../img/140622_0446_barnett.jpg");
+  background-image: 
+      
+/*      linear-gradient(150deg, rgba(107,7,206,.3) 26%,rgba(61,61,244,.5),rgba(232,78,78,.5)),*/
+      
+      linear-gradient(170deg, rgba(0,0,0,.3) 55%,rgba(0,0,0,.2)),
+      url("../img/140622_0446_barnett.jpg");
   background-size: cover;
   background-position: 24% 10%;
   position: relative;
@@ -281,44 +318,44 @@ header {
 
 .headline {
   margin-top: 40px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 3px 2px black;
 }
 
 .dots {
   margin-top: -75px;
   margin-bottom: 40px;
   font-size: 4rem;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 3px black;
 }
 
-.under_headline {
+.under_headline p:not(.age18){
   font-size: 1.3rem;
   margin: -44px 0 60px;
-  text-shadow: 1px 2px 3px black;
+  text-shadow: 2px 2px 1px black;
 }
 
 .age18 {
-  font-size: 1rem;
+  font-size: .6rem;
 }
 
 .about_headline {
   margin: 100px 0 60px;
+  font-weight: 600;
 }
 
 .ride_headline {
   font-size: 2rem;
-  text-shadow: 2px 2px 4px black;
-  margin-top: 125px;
+  text-shadow: 2px 3px 3px black;
+  margin: 45px 0 290px;
 }
 
-.ride_under_headline {
+.location{
   font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: -20px;
-  margin-bottom: 0;
-  text-shadow: 1px 2px 3px black;
+  font-weight: 500;
+  text-shadow: 2px 2px 3px black;
+  margin: 0;
 }
 
 .ride_detail_headline {
@@ -337,7 +374,7 @@ header {
 .ridethree_detail_map,
 .ridefour_detail_map,
 .ridefive_detail_map,
-.ridesix_detail_map {
+.ridesix_detail_map{
   display: inline-block;
   margin: 0 20px 0;
   padding: 6px 6px;
@@ -348,7 +385,7 @@ header {
 }
 
 .ride_buttons {
-  margin-top: 77px;
+  margin-top: 37px;
 }
 
 .register_button {
@@ -406,19 +443,38 @@ RESPONSIVE
 @media (min-width: 359px){
 
   .headline {
-    font-size: 2.2rem;
-    margin-top: 30px;
+    font-size: 1.8rem;
+    margin-top: 23px;
+  }
+    
+  .about_headline {
+      font-size: 1.5rem;  
   }
 
   .dots {
-    margin: -55px 0 50px;
+    margin: -58px 0 0;
     font-size: 3rem;
     text-shadow: 2px 2px 4px black;
   }
-
+    
+/*
   .under_headline {
-    font-size: 1.2rem;
-    margin: -37px 0 60px;
+     margin-top: 230px;   
+  } 
+*/
+    
+  #welcome p {
+    text-shadow: 2px 2px 2px black; 
+  }
+    
+  .first_under {
+     margin: -1px 0 190px;
+     font-size: 1.3rem;
+  }
+
+  .under_headline p:not(.age18){
+    font-size: 1.1rem;
+    margin: -44px 0 60px;
   }
 
   .panel_paragraph p span,
@@ -429,15 +485,16 @@ RESPONSIVE
   }
 
   .register_button {
-    margin-top: -5px;
+    
   }
 
   .age18 {
-    font-size: .6rem;
+    font-size: .83rem;
+    margin-top: -10px; 
   }
 
   .first_about_under {
-    margin-top: -4px;
+    margin-top: 294px;
   }
 
   .ride_headline {
@@ -447,8 +504,6 @@ RESPONSIVE
   .ride_under_headline {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: -13px;
-    margin-bottom: -10px;
   }
 
   .details {
@@ -486,7 +541,7 @@ RESPONSIVE
   }
 
   .headline {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-top: 30px;
   }
 
@@ -494,33 +549,30 @@ RESPONSIVE
     font-size: 3.6rem;
   }
 
-  .under_headline {
-    font-size: 1.4rem;
-    margin: -32px 0 60px;
+  .under_headline p:not(.age18){
+    font-size: 1.3rem;
+    margin: -40px 0 60px;
   }
 
   .register_button {
-    margin-top: 105px;
-
   }
 
   .age18 {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .first_about_under {
-    margin-top: 56px;
+    margin-top: 276px;
   }
 
   .week {
     font-size: 2rem;
-    margin-top: 211px;
+    margin-top: 51px;
   }
 
   .location {
     font-size: 1.8rem;
-    margin-top: 42px;
-    margin-bottom: 265px;
+    margin-bottom: 135px;
   }
 
   .ride_buttons {
@@ -560,48 +612,60 @@ RESPONSIVE
 
   .headline {
     font-size: 2.6rem;
-    margin-top: 164px;
+    margin-top: 44px;
   }
 
   .about_headline {
-    margin-top: 240px;
+    margin-top: 40px;
   }
 
   .dots {
     font-size: 4rem;
+    margin-top: -85px  
+  }
+    
+  .first_under {
+     margin: -1px 0 190px;
+     font-size: 1.6rem;
+  }   
+  
+  .learn {
+    font-size: 1.3rem;      
   }
 
-  .under_headline {
-    font-size: 2rem;
-    margin: -24px 0 60px;
+  .under_headline{
+    margin: 55px 0 60px;
   }
+    
+  .under_headline p:not(.age18){
+    font-size: 1.8rem;   
+  }    
 
   .register_button {
-    margin-top: 45px;
-
+    margin-top: 5px;
   }
 
   .age18 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .first_about_under {
-    margin-top: 56px;
+    margin-top: 456px;
   }
 
   .week {
     font-size: 2.4rem;
-    margin-top: 322px;
+    margin-top: 92px;
+    margin-bottom: 300px;  
   }
 
   .location {
     font-size: 2.2rem;
-    margin-top: 62px;
     margin-bottom: 265px;
   }
 
   .ride_buttons {
-    margin-top: -40px;
+    margin-top: -190px;
   }
 
   .ride_detail_headline {
@@ -639,7 +703,7 @@ RESPONSIVE
   }
 
   .questions {
-    margin-top: 300px;
+    margin-top: 100px;
   }
 
 
@@ -653,48 +717,55 @@ RESPONSIVE
 
   .headline {
     font-size: 2.6rem;
-    margin-top: 44px;
+    margin-top: 40px;
+    margin-bottom: -170px;  
   }
 
   .about_headline {
     margin-top: 90px;
+    margin-bottom: 360px;
   }
 
   .dots {
     font-size: 4rem;
+    margin-top: -70px;
+    display: none;    
   }
-
+    
   .under_headline {
-    font-size: 2rem;
-    margin: -14px 0 60px;
+    margin-top: 300px;      
+  }    
+
+  .under_headline p:not(.age18){
+    font-size: 1.7rem;
+    margin: -38px 0 60px;
+  }  
+
+  .first_under {
+     margin: 178px 0 196px;
+     font-size: 1.6rem;
+  }   
+  
+  .learn {
+    font-size: 1.3rem;      
   }
-
-  .register_button {
-    margin-top: 95px;
-
-  }
-
+    
   .age18 {
-    font-size: 1.1rem;
-  }
-
-  .first_about_under {
-    margin-top: 76px;
+    font-size: .9rem;
   }
 
   .week {
     font-size: 2.6rem;
-    margin-top: 210px;
+    margin-top: 100px;
   }
 
   .location {
-    font-size: 2.6rem;
-    margin-top: 62px;
-    margin-bottom: 265px;
+    font-size: 2.5rem;
+    margin-bottom: 75px;
   }
 
   .ride_buttons {
-    margin-top: -55px;
+    margin-top: -35px;
   }
 
   .ride_detail_headline {
@@ -704,7 +775,7 @@ RESPONSIVE
 
   .location_detail {
     font-size: 2.1rem;
-    margin: 50px 0;
+    margin: 45px 0;
   }
 
   .details {
@@ -715,10 +786,6 @@ RESPONSIVE
 
   .detail_ride_buttons {
     font-size: .8rem;
-  }
-
-  .questions {
-    margin-top: 300px;
   }
 
 

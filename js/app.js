@@ -12,12 +12,14 @@ var open = false;
 // });
 
 $(window).load(function(){
-    $(".panel").css("height",(this.innerHeight)-90 + "px");
+    $(".panel").css("height",(this.innerHeight)-22 + "px");
 });
 
 
 $(window).resize(function(){
+    if($("header").width() > 700){
     $(".panel").css("height",(this.innerHeight)-90 + "px");
+    }
 });
 
 
@@ -97,19 +99,19 @@ $("#welcomelink, #logo").click(function(e){
                      //.stop() needed!!
 });
 
-$("#aboutlink").click(function(e){
-    //scroll UP
-    e.preventDefault();
-    $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*1)-10}, 880);
-                     //.stop() needed!!
-});
+//$("#aboutlink").click(function(e){
+//    //scroll UP
+//    e.preventDefault();
+//    $("#navigation").css("display","none");
+//    $("body").stop().animate({scrollTop:(($(document).height()/9)*1)-10}, 880);
+//                     //.stop() needed!!
+//});
 
 $("#week1link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*2)-20}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*1)-11}, 880);
                      //.stop() needed!!
 });
 
@@ -117,7 +119,7 @@ $("#week2link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*3)-30}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*2)-22}, 880);
                      //.stop() needed!!
 });
 
@@ -125,7 +127,7 @@ $("#week3link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*4)-40}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*3)-33}, 880);
                      //.stop() needed!!
 });
 
@@ -133,7 +135,7 @@ $("#week4link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*5)-50}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*4)-45}, 880);
                      //.stop() needed!!
 });
 
@@ -141,7 +143,7 @@ $("#week5link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*6)-60}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*5)-56}, 880);
                      //.stop() needed!!
 });
 
@@ -149,7 +151,7 @@ $("#week6link").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*7)-70}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*6)-67}, 880);
                      //.stop() needed!!
 });
 
@@ -157,6 +159,6 @@ $("#newsletterlink").click(function(e){
     //scroll UP
     e.preventDefault();
     $("#navigation").css("display","none");
-    $("body").stop().animate({scrollTop:(($(document).height()/9)*8)-80}, 880);
+    $("body").stop().animate({scrollTop:(($(document).height()/8)*7)-78}, 880);
                      //.stop() needed!!
 });
